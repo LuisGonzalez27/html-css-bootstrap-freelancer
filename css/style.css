@@ -5,3 +5,17 @@
     --green: #1ABC9C;
     --light-grey: #3A546D;
 }
+/*** COMMON ***/
+body{
+    background-color: var(--white);
+    color: var(--black);
+}
+.my-bg-dark-grey{
+    background-color: var(--dark-grey);
+}
+.my-bg-green{
+    background-color: var(--green);
+}
+.my-bg-light-grey{
+    background-color: var(--light-grey);
+}
