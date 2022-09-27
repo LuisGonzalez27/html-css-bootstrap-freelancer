@@ -19,3 +19,15 @@ body{
 .my-bg-light-grey{
     background-color: var(--light-grey);
 }
+/* HEADER */
+header{
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    background-color: var(--dark-grey);
+}
+/* MAIN */
+#hero{
+    padding-top: 90px;
+}
