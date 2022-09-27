@@ -27,6 +27,10 @@ header{
     top: 0;
     background-color: var(--dark-grey);
 }
+/* navbar */
+.my-navbar-grow {
+    flex-grow: 0;
+}
 /* MAIN */
 #hero{
     padding-top: 90px;
