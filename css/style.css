@@ -34,7 +34,7 @@ header{
 }
 /* MAIN */
 #hero{
-    padding-top: 90px;
+    padding: 90px 0 50px 0;
     color: var(--white);
 }
 img.avatar{
@@ -58,5 +58,17 @@ img.avatar{
     border-radius: 10px;
 }
 #portfolio .bar{
+    background-color: var(--black);
+}
+/* about */
+#about{
+    padding: 50px 0 50px 0;
+    color: var(--white);
+}
+#about .btn{
+    color: var(--white);
+    border-color: var(--white);
+}
+#about .btn-outline-success:hover{
     background-color: var(--black);
 }
