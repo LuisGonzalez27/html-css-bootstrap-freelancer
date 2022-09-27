@@ -48,3 +48,15 @@ img.avatar{
     border-radius: 4px;
     margin: 0 5px;
 }
+/* portfolio */
+#portfolio{
+    padding: 50px 0 50px 0;
+}
+#portfolio img{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+#portfolio .bar{
+    background-color: var(--black);
+}
