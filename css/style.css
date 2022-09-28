@@ -79,7 +79,7 @@ img.avatar{
     font-weight: 800;
     color: var(--white);
     opacity: 0;
-    transition: opacity 2s;
+    transition: opacity 1s;
     cursor: pointer;
 }
 .plus-container:hover::after{
@@ -95,7 +95,8 @@ img.avatar{
     border-color: var(--white);
 }
 #about .btn-outline-success:hover{
-    background-color: var(--black);
+    color: var(--black);
+    background-color: var(--white);
 }
 /* contact */
 #contact{
@@ -122,17 +123,23 @@ img.avatar{
     color: var(--white);
 }
 #footer-top a{
-    text-decoration: none;
     color: var(--green);
 }
 .cerchio{
-    display: inline-block;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     font-size: 20px;
     color: var(--white);
     border: 1px solid var(--white);
+    cursor: pointer;
+}
+.cerchio:hover{
+    color: var(--black);
+    background-color: var(--white);
+}
+#footer-top a:hover{
+    color: var(--black);
 }
 /* footer bottom */
 #footer-bottom{
