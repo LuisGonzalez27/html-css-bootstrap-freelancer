@@ -48,30 +48,20 @@ img.avatar{
     width: 70%;
     max-width: 100%;
 }
-.bar{
+.bar:before, .bar:after{
+    content: '';
+    display: block;
     width: 15%;
     height: 4px;
     background-color: var(--white);
     border-radius: 4px;
-    margin: 0 5px;
+    margin: 0 15px;
 }
 /* portfolio */
 #portfolio{
     padding: 50px 0 50px 0;
 }
-#portfolio .bar{
-    background-color: var(--black);
-}
-/* about */
-#about{
-    padding: 50px 0 50px 0;
-    color: var(--white);
-}
-#about .btn{
-    color: var(--white);
-    border-color: var(--white);
-}
-#about .btn-outline-success:hover{
+#portfolio .bar:before, #portfolio .bar:after{
     background-color: var(--black);
 }
 /* plus */
@@ -94,4 +84,16 @@ img.avatar{
 }
 .plus-container:hover::after{
     opacity: 1;
+}
+/* about */
+#about{
+    padding: 50px 0 50px 0;
+    color: var(--white);
+}
+#about .btn{
+    color: var(--white);
+    border-color: var(--white);
+}
+#about .btn-outline-success:hover{
+    background-color: var(--black);
 }
