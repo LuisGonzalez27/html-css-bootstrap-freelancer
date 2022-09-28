@@ -116,3 +116,26 @@ img.avatar{
 #portfolio .fa-star, #contact .fa-star{
     color: var(--dark-grey);
 }
+/* footer top */
+#footer-top{
+    padding: 50px 0 20px 0;
+    color: var(--white);
+}
+#footer-top a{
+    text-decoration: none;
+    color: var(--green);
+}
+.cerchio{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+/* footer bottom */
+#footer-bottom{
+    padding: 50px 0 20px 0;
+    color: var(--white);
+}
