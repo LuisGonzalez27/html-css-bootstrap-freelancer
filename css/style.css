@@ -105,6 +105,13 @@ img.avatar{
 #contact .bar:before, #contact .bar:after{
     background-color: var(--dark-grey);
 }
+#contact .btn{
+    background-color: var(--green);
+    border-color: var(--white);
+}
+#contact .btn-success:hover{
+    background-color: var(--black);
+}
 /* start icon */
 #portfolio .fa-star, #contact .fa-star{
     color: var(--dark-grey);
